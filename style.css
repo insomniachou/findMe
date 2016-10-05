@@ -1,0 +1,57 @@
+/* Styles go here */
+#matrixContainer, #message, #congrats{
+  margin: 10px 10px;
+}
+
+#message {
+  height: 40px;
+}
+
+#infoMsg, #countdown {
+  margin: 3px;
+  font-size: 200%;
+  display: inline-block;
+}
+
+#infoMsg {
+  text-align: left;
+  float: left;
+}
+
+#countdown {
+  text-align: right;
+  float: right;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+a:hover, a:active {
+  color: #6E9A06;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:20px;
+}
+
+#congratsButton {
+  display: none;
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+
